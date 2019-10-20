@@ -1,0 +1,235 @@
+Total Lines: 35
+Total Chars: 788
+
+Total Words:
+[keyword]:	18
+[identifier]:	26
+[number]:	25
+[string]:	4
+
+Tokens:
+<keyword	int>
+<identifier	main>
+<punctuator	(>
+<keyword	int>
+<identifier	argc>
+<punctuator	,>
+<keyword	char>
+<punctuator	*>
+<identifier	argv>
+<punctuator	[>
+<punctuator	]>
+<punctuator	)>
+<punctuator	{>
+<keyword	int>
+<identifier	a>
+<punctuator	=>
+<number	10>
+<punctuator	,>
+<number	0x90>
+<punctuator	,>
+<number	0070>
+<punctuator	,>
+<number	0>
+<punctuator	,>
+<number	00>
+<punctuator	,>
+<number	0x0>
+<punctuator	;>
+<keyword	double>
+<identifier	b>
+<punctuator	=>
+<number	0.5>
+<punctuator	,>
+<number	1.5>
+<punctuator	,>
+<number	.0>
+<punctuator	,>
+<number	.1e3>
+<punctuator	,>
+<number	0.>
+<punctuator	,>
+<number	1.e2>
+<punctuator	,>
+<number	56e-3>
+<punctuator	,>
+<number	0.7e+8>
+<punctuator	;>
+<keyword	float>
+<identifier	c>
+<punctuator	=>
+<identifier	a>
+<punctuator	+>
+<identifier	b>
+<punctuator	=>
+<identifier	a>
+<punctuator	/>
+<identifier	b>
+<punctuator	;>
+<punctuator	;>
+<punctuator	;>
+<keyword	long>
+<identifier	d>
+<punctuator	=>
+<identifier	dd0>
+<punctuator	.>
+<identifier	xxx>
+<punctuator	,>
+<identifier	dd>
+<punctuator	.>
+<identifier	xx>
+<punctuator	,>
+<identifier	d1>
+<punctuator	.>
+<punctuator	;>
+<keyword	auto>
+<identifier	sf>
+<punctuator	=>
+<number	1lu>
+<punctuator	,>
+<number	1ul>
+<punctuator	,>
+<number	02u>
+<punctuator	,>
+<number	02lu>
+<punctuator	,>
+<number	0x1l>
+<punctuator	,>
+<number	0x2u>
+<punctuator	,>
+<number	.3f>
+<punctuator	,>
+<number	4.l>
+<punctuator	;>
+<keyword	char>
+<identifier	ch>
+<punctuator	=>
+<number	'@this is a \'Char\''>
+<punctuator	;>
+<keyword	const>
+<keyword	char>
+<punctuator	*>
+<identifier	str>
+<punctuator	=>
+<string	"$this is a \"String\"">
+<punctuator	,>
+<string	"String\n\r\v\t		2">
+<punctuator	;>
+<identifier	printf>
+<punctuator	(>
+<string	"LexTest\n\r\v\t">
+<punctuator	)>
+<punctuator	;>
+<punctuator	[>
+<punctuator	]>
+<punctuator	(>
+<punctuator	)>
+<punctuator	{>
+<punctuator	}>
+<punctuator	.>
+<punctuator	->>
+<punctuator	++>
+<punctuator	-->
+<punctuator	&>
+<punctuator	*>
+<punctuator	+>
+<punctuator	->
+<punctuator	~>
+<punctuator	!>
+<punctuator	/>
+<punctuator	%>
+<punctuator	<<>
+<punctuator	>>>
+<punctuator	<>
+<punctuator	>>
+<punctuator	<=>
+<punctuator	>=>
+<punctuator	==>
+<punctuator	!=>
+<punctuator	^>
+<punctuator	|>
+<punctuator	&&>
+<punctuator	||>
+<punctuator	?>
+<punctuator	:>
+<punctuator	,>
+<punctuator	;>
+<punctuator	...>
+<punctuator	=>
+<punctuator	*=>
+<punctuator	/=>
+<punctuator	%=>
+<punctuator	+=>
+<punctuator	-=>
+<punctuator	<<=>
+<punctuator	>>=>
+<punctuator	&=>
+<punctuator	^=>
+<punctuator	|=>
+<keyword	int>
+<identifier	a>
+<punctuator	=>
+<punctuator	;>
+<keyword	double>
+<identifier	b>
+<punctuator	=>
+<punctuator	,>
+<punctuator	,>
+<punctuator	;>
+<keyword	auto>
+<identifier	sf>
+<punctuator	=>
+<punctuator	,>
+<punctuator	,>
+<punctuator	,>
+<punctuator	,>
+<punctuator	,>
+<punctuator	,>
+<punctuator	,>
+<punctuator	,>
+<number	.6l>
+<punctuator	;>
+<keyword	char>
+<identifier	ch>
+<punctuator	=>
+<punctuator	,>
+<keyword	const>
+<keyword	char>
+<punctuator	*>
+<identifier	str>
+<punctuator	=>
+<identifier	scanf>
+<punctuator	(>
+<string	"LexTest">
+<punctuator	)>
+<punctuator	;>
+<keyword	return>
+<number	0>
+<punctuator	;>
+<punctuator	}>
+
+Errors:
+[26]	非法16进制表示
+[27]	指数表达错误： 5.0e
+[27]	指数表达错误： 65e+
+[27]	指数表达错误： 72e-
+[28]	非法后缀: 1uu
+[28]	非法后缀: 1ull
+[28]	非法后缀: 1llu
+[28]	非法后缀: 1lul
+[28]	非法后缀: 2lu2
+[28]	非法后缀: 2ul2
+[28]	非法后缀: .3fl
+[28]	非法后缀: .4lf
+[28]	非法后缀: .5l3l
+[29]	''内字符为空
+[30]	字符或字符串未闭合：'hahaha;
+[31]	字符或字符串未闭合："haha;
+[31]	非法转义字符： \e
+[31]	非法转义字符： \*
+[31]	非法转义字符： \|
+[31]	非法转义字符： \h
+[32]	非法标点或运算符号: @
+[32]	非法标点或运算符号: $
+[32]	非法标点或运算符号: `
+[32]	非法标点表示: ..
